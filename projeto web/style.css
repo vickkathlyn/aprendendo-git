@@ -1,0 +1,172 @@
+body{
+    background-image: url(img/imagem_de_fundo.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+  
+.cabeçalho{
+    display: flex;   
+    float: right;
+    list-style-type: none;
+   
+    
+}
+
+.Link{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #0f59a0;
+    border-radius: 50px;
+    padding: 7px 5px;
+
+}
+a:hover{
+    background-color: #4d8fcc;
+    border-radius: 50px;
+}
+
+.logo{
+    float: left;
+    height:60px; 
+    width:70px;
+    margin-left: 150px;
+}
+.nome{
+    float: left;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f59a0;
+}
+
+.principal{
+    margin-top: 200px;
+   position: absolute;
+   margin-left: 200px;
+   
+   
+}
+.principal h1{
+    font-size: 100px;
+  
+}
+.principal p {
+    width: 50%;
+    margin-right: auto;
+    font-size: 25px;
+    
+}
+.seila {
+   float: left;
+    margin-left: 50%;
+    margin-top: 50%;
+}
+p{
+    font-size: 22px;
+}
+
+.Origem{
+    float: left;
+    margin-top: 1%; 
+    width: 30%;
+    margin-left: 200px;
+}
+
+.criador{
+    float: left;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.dennis{
+    float: left;
+    margin-top: 98%;
+    margin-left: 20%;
+    position: absolute;
+}
+
+.aplicações{
+    float: left;
+    margin-top: 10%; 
+    width: 30%;
+    margin-left: 200px;
+}
+.hello{
+    float: left;
+    margin-top: 135%;
+    margin-left: 30%;
+    position: absolute;
+}
+.var{
+    float: left;
+    margin-top: 148%;
+    margin-left: 50%;
+    position: absolute;
+
+}
+.var1{
+    float: left;
+    margin-top: 148%;
+    margin-left: 0;
+    position: absolute;
+    
+}
+.entrada{
+    position: absolute;
+    float: left;
+    margin-top: 163%; 
+    width: 30%;
+    margin-left: 200px; 
+}
+.entrada1{
+    float: left;
+    margin-top: 163%;
+    margin-left: 30%;
+    position: absolute;
+    
+}
+.saida{
+    float: left;
+    margin-top: 183%;
+    margin-left: 50%;
+    position: absolute;
+}
+.saida1{
+    float: left;
+    margin-top: 180%;
+    margin-left: 0;
+    position: absolute;
+}
+.op{
+    position: absolute;
+    float: left;
+    margin-top: 205%; 
+    width: 30%;
+    margin-left: 200px;
+}
+
+  
+.rodapé {
+    float: left;
+    background-color: #0f59a0;
+    color: #ffffff;
+    position: relative;
+    padding-left: 47%;
+    padding-right: 45%;
+    
+  }
+
+.sobre{
+    float: left;
+    margin-top: 220%;
+    margin-left: 50%;
+    position: absolute;
+    width: 40%;
+}  
+.sobre h2{
+    font-size: 30PX;
+}

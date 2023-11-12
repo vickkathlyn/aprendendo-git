@@ -1,0 +1,74 @@
+A linguagem C inicialmente é usada em sistemas operacionais e códigos-fontes. Essa linguagem pode ser facilmente encontrada em grandes jogos do mercado atual, 
+editores de imagem e vídeo, robôs, sistemas de automação, e também muitos sistemas operacionais são programados totalmente ou parcialmente em C,
+como por exemplo o Windows, o Linux e o Mac OS.Algumas aplicações simples de programa em Linguagem C:
+
+Programa Olá Mundo;
+Este programa é famoso pela simplicidade. Ela imprime a mensagem “Olá Mundo” no dispositivo (celular, notebook, etc.)
+Código usado:
+/* Programa que exibe a frase "Oi mundo" na tela */
+#include
+
+int main()
+{
+   printf("Oi mundo!");
+   return 0;
+}
+
+Comandos básicos em C;
+
+Toda a estrutura de um programa em C começa com:
+
+main()
+{
+}
+
+Para as variáveis você deve identificar o tipo e o nome:
+
+<tipo> <identificador>;
+<tipo> <identificador> = <valor-inicial>;
+<tipo> <lista-ident-sep-por-vírgula>;
+
+Exemplo:
+
+char caractere;
+int idade;
+long totalAlunos;
+float valor;
+double dividaExterna;
+
+Saída de dados
+
+A saída de dados pode ser feita através da chamada à função printf também pertencente à biblioteca de funções stdio. Desta forma, 
+o procedimento de declaração include desta biblioteca é também requerido.
+
+Exemplo: Leitura das partes de uma data
+main() {
+   // Leitura de dia mes e ano
+   int dia, mes, ano;
+   printf("Digite uma data: ");
+   scanf("%d/%d/%d", &dia, &mes, &ano);
+   // Imprime dia, mes e ano separadamente
+   printf("dia %d\n", dia);
+   printf("mes %d\n", mes);
+   printf("ano %d\n", ano);
+}
+
+Entrada dos dados
+
+A função scanf é usada para efetuar a entrada de dados. Ela está disponível na biblioteca de funções stdio (standard input output).
+
+Exemplo:
+// Leitura de dia mes e ano
+int dia, mes, ano;
+scanf("%d/%d/%d", &dia, &mes, &ano);
+
+Para a leitura de um caractere, podemos usar as funções getch e getche, que capturam e retornam o caractere digitado no teclado.
+
+Operadores Relacionais
+
+Quando a operação relacional resulta em verdadeiro, ela retorna o valor 1. Quando falso, retorna o valor 0.
+
+Exemplos:
+2 == 2   // 2 é igual a 2?
+3 != 2   // 3 é diferente de 2?
+3 >= 2   // 3 é maior ou igual a 2?
